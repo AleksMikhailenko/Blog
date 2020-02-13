@@ -18,6 +18,6 @@ class Config:
     ADMINS = ['for@example.com']
     POSTS_PER_PAGE = 4
     LANGUAGES = ['en', 'es']
-    MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
+    MS_TRANSLATOR_KEY = os.environ.get('TRANSLATOR_KEY')
     ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
     REDIS_URL = os.environ.get('REDIS_URL') or 'redis://'
